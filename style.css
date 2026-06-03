@@ -1,0 +1,36 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header
+{
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.circle-photo{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+body.dark-mode{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
